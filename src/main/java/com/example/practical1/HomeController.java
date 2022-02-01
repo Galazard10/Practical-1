@@ -9,7 +9,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String getHomePage(Model model) {
-        model.addAttribute("myvar", "Says hello to the people");
+        model.addAttribute("myvar", "Say hello to the world");
         return "index";
     }
 }
